@@ -1,0 +1,15 @@
+Package: learning.to.create
+Title: Learning to create R packages (ISCB short course)
+Version: 0.0.1
+Authors@R: 
+    person("Annabel", "Davies", "annabel.davies@bristol.ac.uk", role = c("aut", "cre"))
+Description: ISCB short course training to learn how to create R packages.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+  checkmate
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
